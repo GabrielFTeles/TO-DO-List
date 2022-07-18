@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/67aa33abf6.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>TODO Lista</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>TO-DO List</h1>
+        <h2>Made by <span>Gabriel Teles</span></h2>
+
+        <div class="new-task">
+          <input type="text" name="new-task" id="new-task-input" placeholder="Add a task" minlength="1" required>
+          <i class="fa-solid fa-plus" id="add-task-button"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="tasks-section">
+      <div class="container">
+        <div class="tasks-list"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
