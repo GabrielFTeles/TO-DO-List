@@ -1,6 +1,7 @@
 const newTaskInput  = document.querySelector('#new-task-input');
 const addTaskButton = document.querySelector('#add-task-button');
 const tasksDiv      = document.querySelector('.tasks-list');
+const themeButton   = document.querySelector('#theme-button');
 
 let tasksList = [];
 
@@ -10,6 +11,10 @@ if(tasks) {
   tasksList = Array.from(tasks);
   updateDisplayedTasks();
 }
+
+themeButton.addEventListener('change', () => {
+  document.body.classList.toggle('light-mode')
+})
 
 newTaskInput.addEventListener('keydown', (event) => {
   if(event.key == "Enter") {
