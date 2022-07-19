@@ -5,6 +5,7 @@ const themeButton   = document.querySelector('#theme-button');
 
 let tasksList = [];
 
+//get and display tasks from localStorage if theres tasks on localStorage.
 const tasks = JSON.parse(localStorage.getItem('tasks'));
 
 if(tasks) {
