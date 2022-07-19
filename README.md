@@ -23,7 +23,7 @@ Users should be able to:
 - Create and delete new tasks.
 - Change task status if completed.
 - Tasks still if page reload.
-- Change theme page color (Still working on colors).
+- Change page theme color (Still working on colors).
 
 ### Screenshot
 
